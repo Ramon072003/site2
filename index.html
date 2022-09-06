@@ -1,0 +1,71 @@
+<!--TAG DOCTYPE PARA DETERMIANAR A VERSÃO DO MEU HTML, QUE NO CASO É O HTML 5-->
+<!DOCTYPE html>
+<!--DETERMINEI A LINGUA PADRÃO DO MEU SITE-->
+<html lang="pt-br">
+<!--TAG HEAD ONDE FICARÁ OS ELEMENTOS NÃO VISIVEIS AO USUARIO, SENDO USADO PARA CERTAS CONFIGURAÇÕES DO SITE-->
+    <head>
+        <!--CONFIGURAÇÃO DE CARACTERES-->
+        <meta charset="utf-8">
+        <!--TITULO DO MEU SITE-->
+        <title>SOBRE MIM</title>
+        <!--LINK PARA O ARQUIVO DE ESTILO, O CSS-->
+        <link rel="stylesheet" href="assets/CSS/style.css">
+        <!--LINK PARA O ARQUIVO BOOTSTRAP-->
+        <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+        <!--LINK PARA FONTE EXTERNA UTILIZADA NO SITE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <!--LINK PARA O ARQUIVO JAVA SCRIPT-->
+        <script src="assets/JS/script.js" defer></script> 
+    </head>
+    <!--TAG BOY ONDE FICARÁ O CONTEÚDO DO SITE-->
+    <body>
+        <!--TAG GENÉRICA CONTENDO UMA CLASSE "BORDA", UTILIZADA NO CSS-->
+            <div class="borda">
+                <!--TAG SEMANTICA HEADER QUE INDICA UM CABEÇALHO, ACOMPANHADA DO ATRIBUTO DE ACESSIBILIDADE "ROLE" INDICANDO QUE É UM CABEÇALHO-->
+                <header role="banner">
+                    <!--TAG H1 INDICANDO QUE O TITULO É DE PRIMERIA IMPORTANCIA-->
+                    <h1>RAMON OLIVEIRA SILVA</h1>
+                    <!--TAG SEMANTICA NAV INDICANDO UM MENU, ACOMPANHADA DO ATRIBUTO DE ACESSIBILIDADE "ROLE" INDICANDO UM MENU-->
+                    <nav role="navigation">
+                        <!--LINKS PARA CADA PÁGINA DO SITE-->
+                        <a href="http://127.0.0.1:5500/formacao.html"><div id="link_1">MINHA FORMAÇÃO</div></a>
+                        <a href="http://127.0.0.1:5500/index.html"><div id="link_2">SOBRE MIM</div></a>
+                        <a href="http://127.0.0.1:5500/portifolio.html"><div id="link_21">PORTIFOLIO</div></a>
+                        <a href="http://127.0.0.1:5500/contato.html"><div id="link_3">CONTATO</div></a>       
+                    </nav>
+                </header>
+                <!--TAG PARA QUEBRA DE LINHA-->
+                <br>
+                <!--ATRIBUTO SEMANTICO QUE INDICA UM ARTICO, ACOMPANHADO DO ATRIBUTO DE ACESSIBILIDADE "ROLE INDICANDO QUE AQUI POSSUI O CONTEÚDO PRINCIPAL DO SITE"-->
+                <article role="main">
+                    <!--TAG DE PARÁGRAFO, FAZENDO PARTE DA CLASSE "PT1" USADA NO CSS"-->
+                        <p class="pt1">Amante de video-games, cresci com o sonho de criar um grande jogo 
+                                    que fizesse sucesso mundo a fora. Tomado pela curiosidade, passei a
+                                    buscar formas de tornar esse meu sonho mais próximo da realidade,
+                                    dando de cara assim com novas tecnologias que nunca imaginei que poderiam 
+                                    existir. Uma dessas descobertas, foi o mundo da "programação". Um lugar 
+                                    onde apenas as mentes mais brilhantes poderiam entrar. Bem, pelo menos era 
+                                    assim que eu pensava haha!              
+                        </p>
+                        <!--TAG DE PARÁGRAFO, FAZENDO PARTE DA CLASSE "PT1" E ID "FUTEBOL" USADA NO CSS"-->
+                        <p class="pt1" id="futebol">
+                            Uma das coisas que mais amo também é futebol, sou um torcedor fanático do Palmeiras.
+                            Inclusive, jogo direto com meus amigos nos finais de semana. Não me considero um super craque, mas jogo bem haha!
+                        </p>
+                        <!--TAG DE PARÁGRAFO, FAZENDO PARTE DA CLASSE "PT1" E ID "COMIDAS" USADA NO CSS"-->
+                        <p class="pt1" id="comidas">
+                            Tenho muitas comidas favoritas, sendo as principais: Almôndega, fricasse de frango e parmegiana. 
+                            Gosto muito de beber refrigerante, porém um suco natural sempre é bem-vindo, principalmente o de limão (apesar que muitas pessoas não gostem).
+                        </p>
+                        <!--TAG BUTTON CONTENDO UMA PROPRIEDADE DO BOOTSTRAP, ATRAVÉS DELA CRIEI UMA JANELA MODAL, QUE APARECE QUANDO O USUARIO CLICA NO BOTÃO"-->
+                        <button onclick="acao()"class="btn btn-primary">CURIOSIDADE</button>
+                        <div id="modal">
+                            <button onclick="fechar()"class="fechar_model">X</button>
+                            <p id="curio">Minha série favorita de jogos é Resident Evil</p>
+                        </div>
+                </article>
+            </div> 
+    </body>
+</html>

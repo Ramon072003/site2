@@ -1,0 +1,217 @@
+/* TORNEI O FUNDO DA TAG BODY EM BRANCO*/
+body{
+    background-color: white;
+}
+/* FUNDO DA COR AQUA*/
+#fun{
+    background-color: aqua;
+}
+/* CONFIGURAÇÃO DA BORDA, COMO COR, MARGEM E COR DE FUNDO*/
+.borda{
+    color: rgb(95, 92, 92);
+    border: solid black 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 43px;
+    padding-bottom: 320px;
+    background-color: black;
+}
+/* TORNEI A COR DO TITULO EM PRETO E CENTRALIZEI ELE*/
+h1{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Silkscreen', cursive;
+}
+/* CONFIGUREI A POSIÇÃO DE UMA DAS OPÇÕES DO MENU*/
+#link_1{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    left: 540px;
+}
+/* CONFIGUREI A POSIÇÃO DE UMA DAS OPÇÕES DO MENU*/
+#link_2{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    left: 570px;
+}
+/* CONFIGUREI A POSIÇÃO DE UMA DAS OPÇÕES DO MENU*/
+#link_3{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    left: 600px;
+}
+/*TORNEI TODO O CONTEUDO DA TAG ARTCILE NA FONTE EXTERNA*/
+article{
+    font-family: 'Silkscreen', cursive;
+   
+}
+
+/* POSIÇÃO DO TEXTO, CONFIGURAÇÃO DE MARGEM, DEIXANDO O TEXTO JUSTIFICADO TAMBÉM*/
+.pt1{
+    color: rgb(116, 109, 109);
+    margin-top: 50px;
+    margin-left:50px;
+    margin-right: 100px;
+    position: relative;
+    left: 20px;
+    text-align: justify;
+
+}
+/* POSIÇÃO DO TEXTO E DISTANCIA DO FUNDO DA TELA*/
+#futebol{
+    position: relative;
+    bottom: 34px;
+}
+/* POSIÇÃO DO TEXTO E DISTANCIA DO FUNDO DA TELA*/
+#comidas{
+    position: relative;
+    bottom: 64px;
+}
+/* POSIÇÃO DO BOTÃO E DISTANCIA DA ESQUERDA DA TELA*/
+.btn{
+    position: relative;
+    left: 793px;
+}
+/* CONFIGURAÇÃO DO MEU MODAL, COMO ANIMAÇÃO, SOMBRAS, SUA BORDA, ALTURA E LARGURA, POSIÇÃO E DISTANCIA DO TOPO OU DA ESQUERDA*/
+#modal{
+    position: relative;
+    top: 100px;
+    left: 420px;
+    border: 1px solid silver;
+    box-shadow: 4px 4px 8px #0002;
+    border-radius: 5px;
+    padding: 1rem;
+    height: autovw;
+    width: 50vw;
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+    background-color: rgb(71, 71, 78);
+
+}
+/* CRIEI UMA ANIMAÇÃO AO CLICARMOS NO BOTÃO CRIADO ATRAVÉS DO BOTSTRAP NA PAGINA SOBRE MIM*/
+@keyframes animate{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+
+}
+/* CONFIGURAÇÃO DE POSIÇÃO E DISTANCIA DA ESQUERDA DA TELA DO TEXTO DA MINHA JANELA MODAL*/
+#curio{
+    position: relative;
+    left: 220px;
+}
+/* CONFIGURAÇÃO PARA FECHAR A JANELA MODAL*/
+.fechar_model{
+    float: right;
+    cursor: pointer;
+}
+/* POSIÇÃO DA MINHA LISTA E DISTANCIA DA ESQUERDA E DO TOPO*/
+#lista{
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+#sub{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+/* CONFIGURAÇÃO DE POSIÇÃO DA LISTA DOS MEUS TRABALHOS NO PORTIFOLIO*/
+#lista2{
+    position: relative;
+    left: 627px;
+    top: 100px;
+}
+/* CONFIGURAÇÃO DE POSIÇÃO DA IMAGEM DE UM DOS MEUS TRABALHOS*/
+#java{
+    position: relative;
+    right: 240px;
+    top: 100px;
+}
+/* CONFIGURAÇÃO DE POSIÇÃO DA IMAGEM DE UM DOS MEUS TRABALHOS*/
+#python{
+    position: relative;
+    right: 140px;
+    top: 300px;
+}
+/* CONFIGURAÇÃO DA POSIÇÃO DO TEXTO QUE DESCREVE A IMAGEM DE UM DOS MEUS TRABALHOS*/
+#desc{
+    position: relative;
+    top: 200px;
+}
+/*CONFIGURAÇÃO DE BORDA*/
+.borda2{
+    color: rgb(95, 92, 92);
+    border: solid black 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 43px;
+    padding-bottom: 420px;
+    background-color: black;
+}
+/* CONFIGUREI A POSIÇÃO DE UMA DAS OPÇÕES DO MENU*/
+#link_21{
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    left: 590px;
+}
+.row{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+/* CONFIGUREI A POSIÇÃO DO FORMULÁRIO, DETERMINEI A MARGEM NO TOPO E EMBAIXO COMO 0 E COLOQUEI SOMBRAS NO MESMO */
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+    position: relative;
+    top: 50px;
+}
+
+/* CONFIGUREI A LARGURA DO MEU INPUT E DA TAG TEXTAREA, ASSIM COMO SUA BORDA*/
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #999;
+}
+.contato{
+    background-color: white;
+    border:1px solid rgb(21, 4, 98);
+    color: rgb(21,4,98);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+}
+/* CONFIGUREI A POSIÇÃO DE UMA DAS OPÇÕES DO MENU*/
+#link_3{
+    position: relative;
+    right: 50px;
+}
+
